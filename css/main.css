@@ -17,6 +17,8 @@ body {
 	min-width: 1200px;
 	position: relative;
 	z-index: 1;
+	background-image: url('../images/SF2-logo.png');
+	background-repeat: no-repeat;
 }
 
 .main .ryu {
@@ -32,12 +34,12 @@ body {
 	height: 494px;
 }
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 
@@ -54,7 +56,11 @@ body {
   z-index: 3;
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat:no-repeat;
 }
 
@@ -68,5 +74,29 @@ body {
 	z-index: 10;
 	top:166px;
 	left:530px;
+}
+.instructions {
+	float:left;
+	text-align: left;
+	display: block;
+	width:40%;
+}
+
+.instructions h2 {
+	font-size: 28px;
+	color: #cc0011;
+	font-weight: normal;
+}
+
+.instructions h3 {
+	font-size: 22px;
+	color: #3311cc;
+	font-weight: normal;
+}
+
+.button {
+	font-size: 28px;
+	color: orange;
+	font-weight: normal;
 }
 
