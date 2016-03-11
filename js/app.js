@@ -42,7 +42,7 @@ $(document).ready(function() {
 
  $('body').keyup(function(){
         $(".ryu-cool").hide();
-        $(".ryu-ready").show();x
+        $(".ryu-ready").show();
 });
 
 });
